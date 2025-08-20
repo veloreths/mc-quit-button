@@ -1,0 +1,23 @@
+{
+	"required": true,
+	"package": "org.veloreths.quitbutton.mixin",
+	"compatibilityLevel": "JAVA_8",
+    "mixins": [
+      "GameMenuScreenMixin",
+      "MinecraftClientMixin",
+      "AccessibilityOptionsScreenMixin",
+      "AccessibilityOptionsScreenAccessor"
+    ],
+    "client": [
+      "GameMenuScreenMixin",
+      "MinecraftClientMixin",
+      "AccessibilityOptionsScreenMixin",
+      "AccessibilityOptionsScreenAccessor"
+    ],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "quit-button",
+  "version": "1.0.0",
+  "name": "Quit Button",
+  "description": "Mod that adds an quit game button to the game menu",
+  "authors": [
+    "Veloreths"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/exit-button",
+    "sources": "https://github.com/veloreths/mc-quit-button",
+    "issues": "https://github.com/veloreths/mc-quit-button/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/quit-button/icon.png",
+  "environment": "*",
+  "mixins": [
+    "quit-button.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.25",
+    "minecraft": "~1.16.5",
+    "java": ">=8"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
